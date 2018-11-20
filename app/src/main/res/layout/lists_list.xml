@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dip"
+        android:paddingBottom="8dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <ImageButton
+            android:id="@+id/ShoppingItemIconImageView"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="0dip"
+            android:padding="5dip"
+            tools:src="@drawable/list"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/ListNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="@color/colorDark"
+                android:textSize="16dip"
+                android:text="@string/lista_name" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="visible"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/ActiveText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="12dip"
+                    android:text="@string/akt_v_elem_text" />
+
+                <TextView
+                    android:id="@+id/ListActiveElement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorRed"
+                    android:textSize="12dip"
+                    android:text="@string/active_elem_number" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ListActivatedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:text="@string/datum"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorDark"
+                android:textSize="12dip" />
+
+        </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ShoppingItemRemoveButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/garbage"
+        android:scaleType="fitXY"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        />
+
+    </LinearLayout>
+</ScrollView>

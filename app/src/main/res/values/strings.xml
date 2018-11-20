@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Bevásárló Lista</string>
+    <string name="action_settings">Settings</string>
+    <string name="productname">Product Name</string>
+    <string name="active_elem_number"></string>
+    <string name="akt_v_elem_text">Aktív Elem: </string>
+    <string name="lista_name">Lista Neve</string>
+    <string name="price"></string>
+    <string name="datum"></string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="new_item">Új elem felvétele</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Elem neve</string>
+    <string name="description">Leírás</string>
+    <string name="category">Kategória</string>
+    <string name="estimated_price">Ár</string>
+    <string name="activeitem">Active Item</string>
+    <string name="deactiveitem">Deactive Item</string>
+    <string name="lista_emlekezteto">Lista Emlékeztető</string>
+    <string name="lista_neve">Lista Neve</string>
+    <string-array name="category_items">
+        <item>Food</item>
+        <item>Electronic</item>
+        <item>Home</item>
+    </string-array>
+</resources>
