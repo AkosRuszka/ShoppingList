@@ -25,3 +25,7 @@ A listák perzisztensen lesznek eltárolva a Sugar-ORM-el.
 A listák és a listában tárolt elemekhez a RecycleView-t fogom használni.
 Egyes listákhoz időpontokat is fel lehet venni emlékeztetőként, illetve meg is lehet osztani
 őket Intent segítségével a különböző alkalmazások között.
+
+### További képek a programból
+
+[Képek](https://github.com/AkosRuszka/ShoppingList/wiki)
